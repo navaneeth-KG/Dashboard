@@ -28,7 +28,7 @@ const BarChart = ({ data, title }) => {
       {
         label: title,
         data: data.map(item => item.count),
-        backgroundColor: 'blue',
+        backgroundColor: '#0079FF',
         borderColor: 'white',
         borderWidth: 0,
         

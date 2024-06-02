@@ -51,7 +51,7 @@ const Dashboard = () => {
     <div className="dashboard">
       <h1 style={{ color: 'wheat' }}>dashboard</h1>
       <div className="dashboard-header">
-        <Overview data={totalAlerts} label="total alerts" />
+        <Overview data={totalAlerts} label="Total alerts" />
         <Overview data={uniqueSourceIPs} label="Unique source IPs" />
         <Overview
           data={uniqueDestinationPorts}
